@@ -1,6 +1,24 @@
-#include <iostream>
+#include <Hello>
+
 using namespace std;
-int main() {
-cout «"Hello, World!";
- return 0;
+
+//функция перевода из дюймов в сантиметры
+float converter(float inch){
+       float sm = (2.54 * inch);
+       return sm;
+}
+
+float area(float width, float length) {
+         float n = (length * width);
+         return n
+}
+
+int main(){
+        float m;
+        cin >> m;
+        cout << converter(m) << endl:
+        float a, b;
+        cin >> a >> b;
+        cout << area(a, b);
+        return 0;
 }
